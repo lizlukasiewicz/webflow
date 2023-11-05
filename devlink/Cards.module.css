@@ -1,0 +1,29 @@
+.three-columns {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-areas: "Area"
+  ".";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#w-node-_786745db-80f9-f8a8-da32-06b15dfd8b37-5dfd8b36 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_786745db-80f9-f8a8-da32-06b15dfd8b3e-5dfd8b36 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-_786745db-80f9-f8a8-da32-06b15dfd8b45-5dfd8b36 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
